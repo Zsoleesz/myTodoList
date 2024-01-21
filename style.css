@@ -18,12 +18,21 @@ body{
 }
 
 input{
-
+    margin: 20px;
     outline: none;
     width: 350px;
     border: none;
     border-bottom: 2.5px solid #000;
     font-size: 1.5rem;
     background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+}
+
+#btn{
+    margin: 20px;
+    padding: 10px;
 }
